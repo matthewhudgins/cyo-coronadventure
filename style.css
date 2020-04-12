@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap');
 
-html,body, tw-story{
-  font-family: 'Gaegu', cursive;
-  background:white;
-  color:black;
+html,
+body,
+tw-story {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    color: white;
 }
-tw-passage{
-  font-size:2rem;
+
+tw-passage {
+    font-size: 2rem;
 }
+
 tw-expression {
     font-size: 1.75rem;
 }
