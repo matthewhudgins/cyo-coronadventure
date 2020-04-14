@@ -1,17 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
-html,
-body,
-tw-story {
-    font-family: 'Roboto', sans-serif;
-    background: black;
-    color: white;
+.center{
+  text-align:center;
 }
-
-tw-passage {
-    font-size: 2rem;
+html,body{
+  background:black;
+  
 }
-
 tw-expression {
-    font-size: 1.75rem;
+    position: initial;
+    display: block;
+    margin-bottom: -10px;
+}
+tw-link{
+  color:#0092be;
+  text-decoration:underline;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+tw-link:hover{
+  color:#3dc4b6;
+}
+.no-line tw-expression{
+    position: relative;
+    display: inline;
+    margin-bottom: auto;
+}
+/*.no-line tw-expression:first-of-type:before {
+    content: "";
+    display: none;
+    width: 0;
+    height: 0;
+}
+tw-expression:first-of-type:before {
+    content: " ";
+    display: block;
+    width: 125px;
+    height: 2px;
+    background: #3dc4b6;
+    margin: 20px 0px;
+}*/
+tw-story{
+  transition: all .5s;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+tw-story[tags="wrong"]{
+  background:#3e060640;
+}
+img{
+  max-width:80%;
+  max-height: 400px;
+  margin-bottom: 50px;
 }
